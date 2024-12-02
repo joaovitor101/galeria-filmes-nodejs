@@ -49,7 +49,7 @@ app.post("/upload", upload.single("file"), (req, res) => {
   res.redirect("/")
 });
 
-const port = 8081;
+const port = 3000;
 app.listen(port, (error) => {
   if (error) {
     console.log(`Ocorreu um erro: ${error}`);
